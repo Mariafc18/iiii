@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    background-image: url('f3.jpg'); /* Reemplaza con la ruta de tu imagen de fondo */
+    background-size: cover; /* Puedes cambiar 'cover' por 'contain' u otro valor según tus necesidades */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.container {
+    text-align: center;
+    
+}
+.mensaje {
+    text-align: right;
+    color: black;
+    padding: 25px;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+
+}
+
+#secretContent {
+    display: none;
+}
+
+#secretContent img {
+    max-width: 50%;
+    height: auto;
+}
+
+
